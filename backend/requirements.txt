@@ -1,0 +1,17 @@
+# Основные зависимости
+fastapi==0.104.1          # Веб-фреймворк
+uvicorn[standard]==0.24.0 # ASGI сервер
+python-dotenv==1.0.0      # Переменные окружения
+asyncpg==0.29.0           # Асинхронный драйвер PostgreSQL
+pydantic==2.5.0           # Валидация данных
+pydantic[email]           # Валидация email
+
+# Безопасность
+bcrypt==4.1.1             # Хеширование паролей  
+python-jose[cryptography]==3.3.0  # JWT токены
+python-multipart==0.0.6   # Для загрузки файлов
+
+# Разработка
+pytest==7.4.3             # Тестирование
+pytest-asyncio==0.21.1    # Асинхронные тесты
+httpx==0.25.2             # HTTP клиент для тестов

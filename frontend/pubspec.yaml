@@ -1,0 +1,49 @@
+name: frame_app
+description: Frame - AI Cinema Platform
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.19.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  
+  # HTTP запросы к API
+  http: ^0.13.5
+  
+  # Управление состоянием (опционально, но рекомендуется)
+  provider: ^6.0.5
+  
+  # Хранение токенов и настроек
+  shared_preferences: ^2.0.18
+  
+  # Работа с изображениями
+  cached_network_image: ^3.2.3
+  
+  # UI компоненты
+  cupertino_icons: ^1.0.5
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  
+  # Линтер для чистого кода
+  flutter_lints: ^2.0.1
+
+flutter:
+  uses-material-design: true
+  
+  # Добавьте свои ассеты здесь
+  # assets:
+  #   - assets/images/
+  #   - assets/icons/
+  
+  # Пользовательские шрифты
+  # fonts:
+  #   - family: Inter
+  #     fonts:
+  #       - asset: fonts/Inter-Regular.ttf
+  #       - asset: fonts/Inter-Bold.ttf
+  #         weight: 700
