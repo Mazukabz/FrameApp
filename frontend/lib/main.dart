@@ -36,8 +36,9 @@ class HomeScreen extends StatefulWidget {
 
 class _HomeScreenState extends State<HomeScreen> {
   // API endpoint - замените на ваш реальный URL
-  final String apiUrl = 'http://localhost:8000';
-  
+final String apiUrl = 'http://5.144.179.63'; // Обратите внимание: без /api/ на конце, если ваш фронтенд добавляет его потом
+
+
   // Список фильмов, загруженных с сервера
   List<Movie> movies = [];
   
